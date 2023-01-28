@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1em;
+}
+
+.titulo {
+    font-size: 32px;
+    margin: 0.5em 0;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+#valor,
+#opcoes {
+    padding: 0.5em;
+}
+
+.botao-adicionar,
+.botao-ordenar,
+.botao-misturar {
+    width: 20%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    color: #FFFFFF;
+    background-color: #1E90FF;
+    margin-right: 0.5em;
+    border-radius: 8px;
+    border: none;
+}
+
+.botao-adicionar:active,
+.botao-ordenar:active,
+.botao-misturar:active {
+    background-color: #0000CD;
+}
+
+hr {
+    width: 100%;
+}
+
+#opcoes,
+#valores,
+#valores2 {
+    margin-top: 0.5em;
+}
+
+.item-valores::before {
+    content: "\2981";
+    margin: 0 0.5em 0 1em;
+}
